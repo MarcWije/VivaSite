@@ -33,29 +33,32 @@
             <p>Today we'll be looking at everything that makes this album what it is, from the songs, to the places, to the people. Let's dive in!</p>
         </div>
         <div class = "card-deck" id = "links">
-            <div class = "card">
+            <div class = "card" id = "people-card">
                 <img class = "card-img-top" src = "images/coldplay.png" alt = "People">
-                <div class = "card-body" id = "people-card">
+                <div class = "card-body">
                     <h3 class = "card-title">People</h3>
                     <p class = "card-text">The wonderful people who comprise Coldplay</p>
                 </div>
             </div>
-            <div class = "card">
+            <div class = "card" id = "places-card">
                 <img class = "card-img-top" src = "images/bakery.png" alt = "Places">
-                <div class = "card-body" id = "places-card">
+                <div class = "card-body">
                     <h3 class = "card-title">Places</h3>
                     <p class = "card-text">All locations involved in the recording of this album</p>
                 </div>
             </div>
-            <div class = "card">
+            <div class = "card" id = "music-card">
                 <img class = "card-img-top" src = "images/music.png" alt = "Music">
-                <div class = "card-body" id = "music-card">
+                <div class = "card-body">
                     <h3 class = "card-title">Music</h3>
                     <p class = "card-text">The 10 tracks that comprise the legendary album, telling the story of a king dethroned by his people.</p>
                 </div>
             </div>
         </div>
         <div><br><br></div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
         <script>
             document.getElementById('people-card').onclick = function() {
                 window.location.href = 'people.html';
