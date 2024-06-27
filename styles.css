@@ -70,7 +70,7 @@ h4 {
     animation: fadeIn 3s ease-in-out, rise 1s ease-in-out;
 }
 
-.intro {
+#intro {
     color: #fff;
     font-family: "Libre Franklin", sans-serif;
     font-weight: 400;
@@ -124,39 +124,39 @@ h4 {
     transition: transform 0.3s ease-in-out;
 }
 
-.buttons:hover{
-    transform: translateY(-1rem);
-}
-
 #links {
-    vertical-align: center;
+    font-family: "Georgia", serif;
+    font-weight: 200;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.card-title {
+    font-size: clamp(1rem, 2vw, 8rem);
+}
+
+.card-text {
+    font-size: clamp(0.7rem, 1.2vw, 8rem);
+}
+
+.card-deck {
     padding: 3vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 100%;
 }
 
-.buttons-img {
-    width: 21vw;
-    height: auto;
+.card {
+    transition: transform 0.4s ease-in-out;
+    background-color: #a90006;
+    background-blend-mode: overlay;
+    opacity: 0.8;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 15%;
+    padding: 1vw;
+
 }
 
-.music-img {
-    width: auto;
-    height: 10vw;
-}
-
-#people_button{
-    align: left;
-}
-
-#places_button{
-    align: center;
-}
-
-#music_button{
-    align: right;
+.card:hover {
+    transform: translateY(-1rem);
 }
 
 #footer_text {
@@ -256,6 +256,9 @@ h4 {
         order: 1;
     }
 
+    .card:hover {
+        transform: translateY(-0.5rem);
+    }
 
 }
 
