@@ -11,43 +11,41 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Music | Viva La Vida</title>
-        <div id = "header">
-            <img src = "images/coldplay-viva-logo.png" alt = "logo" class = "logo" id = "logo">
-            <h1>The Music of Viva La Vida</h1>
-            <br>
-            <h4><i>The 10 tracks that comprise the legendary album, telling the story of a king dethroned by his people.</i></h4>
-            <br>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id = "navbar">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "container-fluid" id = "header">
+            <div class = "container-fluid" id = "titles">
+                <img src = "images/coldplay-viva-logo.png" alt = "logo" class = "logo" id = "logo">
+                <h1>The Music of Viva La Vida</h1>
+                <br>
+                <h4><i>The 10 tracks that comprise the legendary album, telling the story of a king dethroned by his people.</i></h4>
+                <br>
+            </div>
+            <nav class="navbar navbar-expand-lg" data-bs-theme = "dark" id = "linkBar">
+                <div class="container-fluid" >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                    <ul class="navbar-nav">
-                      <li class="nav-item dropdown">
-                        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-theme="dark">
-                          Dropdown
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="people.html">People</a></li>
-                          <li><a class="dropdown-item" href="places.html">Places</a></li>
-                          <li><a class="dropdown-item" href="music.html">Music</a></li>
-                        </ul>
-                      </li>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="people.html">People</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="places.html">Places</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Music</a>
+                        </li>
                     </ul>
-                  </div>
+                </div>
                 </div>
             </nav>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script>
-            document.getElementById('logo').onclick = function() {
-                window.location.href = 'index.html';
-            };
-        </script>
-    </head>
-    <body>
         <div id ="coldplay-border" style= "background-image: url('images/border3.jpg')">
         </div>
         <br><br>
@@ -174,6 +172,11 @@
             document.getElementById('track10-img').onclick = function() {
                 window.open('https://open.spotify.com/track/6sJNIMODjUE7NYrnZYN4EN?si=c9a2ee7a86dc4233', '_blank');
             };
+        </script>
+        <script>
+                    document.getElementById('logo').onclick = function() {
+                        window.location.href = 'index.html';
+                    };
         </script>
     </body>
     <footer>
