@@ -28,6 +28,10 @@
     background-position: top;
 }
 
+#navbar {
+    opacity: 0.35;
+}
+
 body {
     background-color: #0A091F;
     background-image: url('images/paper.jpg');
@@ -129,6 +133,7 @@ h4 {
     font-weight: 200;
     font-variant: small-caps;
     text-align: center;
+    padding: 3vw;
 }
 
 .card-title {
@@ -139,9 +144,6 @@ h4 {
     font-size: clamp(0.7rem, 1.2vw, 8rem);
 }
 
-.card-deck {
-    padding: 3vw;
-}
 
 .card {
     transition: transform 0.4s ease-in-out;
@@ -159,6 +161,7 @@ h4 {
     transform: translateY(-1rem);
 }
 
+
 #footer_text {
     text-align: center;
 }
@@ -174,6 +177,7 @@ h4 {
     flex: 25%;
     padding: 50px;
     order: 3;
+    text-align: center;
 }
 
 .track_text {
@@ -198,11 +202,12 @@ h4 {
 }
 
 .artwork {
-    width: 300px;
+    width: clamp(2rem, 20vw, 52rem);
     height: auto;
     box-shadow: 10px 10px 20px;
     max-width: 100%;
-    transition: transform 0.3s ease-in-out
+    transition: transform 0.3s ease-in-out;
+    justify-content: center;
 }
 
 .polaroid {
@@ -250,7 +255,8 @@ h4 {
 
     }
     .artwork, .polaroid {
-        max-width: 70%;
+        max-width: 100%;
+        width: clamp(2rem, 25vw, 52rem);
     }
     .artwork_container {
         order: 1;
