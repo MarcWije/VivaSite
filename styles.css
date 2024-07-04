@@ -1,3 +1,4 @@
+/*Animations for text to get the rising effect */
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -24,6 +25,7 @@
     padding: 2vw 10vw;
 }
 
+/*Background images and styles*/
 #header {
     background-image: url("images/map.jpg");
     background-size: cover;
@@ -40,14 +42,17 @@ body {
     background-blend-mode: overlay;
 }
 
+/*style for footer text*/
 footer {
     font-family: "Libre Franklin", sans-serif;
     font-weight: 100;
     font-size: 12px;
     color: #6b706c;
     padding: 20px;
+    text-align: center;
 }
 
+/*Text styles*/
 h1 {
     font-family: "Alegreya Sans SC", sans-serif;
     font-optical-sizing: auto;
@@ -83,6 +88,7 @@ h4 {
     animation: fadeIn 4s ease-in-out, rise 1.5s ease-in-out;
 }
 
+/*Border that divides header and body on each page*/
 #coldplay-border {
     border: none;
     padding: 20px;
@@ -91,6 +97,7 @@ h4 {
     animation: fadeIn 4s ease-in-out, rise 2s ease-in-out;
   }
 
+/*Logo at the top of each page*/
 .logo {
     width: 100px;
     height: auto;
@@ -105,7 +112,7 @@ h4 {
     transform: scale(1.3, 1.3);
 }
 
-
+/*Buttons used before switching to Bootstrap card-groups*/
 .buttons {
     border: none;
     height: 18vw;
@@ -127,6 +134,7 @@ h4 {
     transition: transform 0.3s ease-in-out;
 }
 
+/*navbar styling*/
 #navbarNav {
     font-family: "Georgia", serif;
     font-weight: 200;
@@ -154,6 +162,7 @@ justify-content: space-between;
     padding: 3vw;
 }
 
+/*Welcome page link styling*/
 .card-title {
     font-size: clamp(1rem, 2vw, 8rem);
 }
@@ -179,11 +188,7 @@ justify-content: space-between;
     transform: translateY(-1rem);
 }
 
-
-#footer_text {
-    text-align: center;
-}
-
+/*Containers styling used on all pages*/
 .tracks_div {
     display: flex;
     flex-wrap: wrap;
@@ -222,6 +227,7 @@ justify-content: space-between;
     font-size: clamp(0.6rem, 1.2vw, 2.5rem);
 }
 
+/*Image Styling*/
 .artwork {
     width: clamp(2rem, 20vw, 52rem);
     height: auto;
@@ -268,6 +274,7 @@ justify-content: space-between;
     color: #6b706c;
 }
 
+/*some config for the mobile view*/
 @media (max-width: 800px) {
     .track_text, .artwork_container, .track_text2 {
         flex: 100%;
