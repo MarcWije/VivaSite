@@ -192,6 +192,9 @@ justify-content: space-between;
 }
 
 .artwork_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 25%;
     padding: 50px;
     order: 3;
