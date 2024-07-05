@@ -286,7 +286,7 @@ justify-content: space-between;
     }
     .artwork, .polaroid {
         max-width: 100%;
-        width: clamp(2rem, 42vw, 52rem);
+        width: clamp(2rem, 42vw, 100rem);
     }
     .artwork_container {
         order: 1;
