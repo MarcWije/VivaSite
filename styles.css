@@ -282,9 +282,15 @@ justify-content: space-between;
         text-align: center;
         font-size: clamp(0.8rem, 3.5vw, 4rem);
     }
+    
     h4 {
     font-size: clamp(0.6rem, 3vw, 4rem);
     }
+
+    #intro {
+        font-size:clamp(0.6rem, 3vw, 4rem);
+    }
+    
     .artwork, .polaroid {
         max-width: 100%;
         width: clamp(2rem, 42vw, 100rem);
