@@ -280,13 +280,13 @@ justify-content: space-between;
         flex: 100%;
         padding: 5vw;
         text-align: center;
-        font-size: clamp(0.8rem, 3vw, 2.5rem);
+        font-size: clamp(0.8rem, 3.5vw, 2.5rem);
     }
 
     }
     .artwork, .polaroid {
         max-width: 100%;
-        width: clamp(2rem, 35vw, 52rem);
+        width: clamp(2rem, 42vw, 52rem);
     }
     .artwork_container {
         order: 1;
