@@ -293,7 +293,7 @@ justify-content: space-between;
     
     .artwork, .polaroid {
         max-width: 100%;
-        width: clamp(2rem, 42vw, 100rem);
+        width: clamp(2rem, 60vw, 100rem);
     }
     .artwork_container {
         order: 1;
